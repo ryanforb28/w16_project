@@ -1,0 +1,58 @@
+
+        article {
+            text-align: left;
+            position: absolute;
+            left: 500px;
+        }
+
+        div {
+            width: 400px;
+            height: 500px;
+            overflow: auto;
+            position: absolute;
+            top: 60px;
+            left: 430px;
+            text-align: center;
+            border: 2px solid blue;
+            background-color: #aaf;
+            display: none;
+        }
+
+        .tex {
+            position: relative;
+            text-align: center;
+            top: 20px;
+        }
+
+        .tex2 {
+            position: relative;
+            top: 0px;
+            
+            text-align: center;
+            
+        }
+
+        .tex3 {
+            position: relative;
+            text-align: center;
+            top: 0px;
+        }
+
+        .list {
+            position: relative;
+            text-align: left;
+            left: -25px;
+            
+        }
+
+        .fartsmella {
+            position: relative;
+            text-align: center;
+            top: -10px;
+        }
+        .smartfella {
+            position: relative;
+            text-align: center;
+            top: -20px;
+        }
+        
