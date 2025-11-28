@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>rrsterernt v5</title>
+        <link type="text/css" rel="stylesheet" href="w16_Tuscany.css" />
+   
+   
+    <script type="text/javascript">
+
+        function openpop() {
+
+            let specials = document.getElementById("2");
+            specials.style.display = "block";
+        }
+        function closepop() {
+
+            let specials = document.getElementById("2");
+            specials.style.display = "none";
+        }
+    </script>
+    </head>
+    <body>
+        <article id="1">
+            <p>
+            <h1 class="tex"><b>A Taste of Tuscany</b></h1> 
+            <h2 class="tex2">Italian Restaurant</h2></p> 
+            <p class="tex3">234 Arezzo Avenue <br/>
+            Sherwood Park</p>
+            <img src="https://i.imgur.com/dZJxV8W.png" alt="wingin it" width="250" height="200"/> </br>
+            <ul class="list"><!-- Unordered (Bulleted) List -->
+            <li>Fine Italian Dining</li>
+            <li>Daily Specials</li>
+            <li onclick="openpop()">Licensed</li>
+            <li>Banquet Room</li>
+            <li>Open Daily Until 11pm</li>
+            <li>Eat In, Take Out Delivery</li>
+            <li>Call 780-555-1234</li>
+            </ul>
+        </article>
+        <div id="2">
+            <p>
+            <h2 class="fartsmella"><b><i>Today's Special</i></b></h2> 
+            <h2 class="fartsmella"><i>Valigette</i> (Beef Rolls)</h2></p> 
+            <h2 class="smartfella">$12.95</h2></p> 
+            <img src="https://i.imgur.com/dZJxV8W.png" alt="wingin it" width="250" height="200"/> </br>
+            <p>Includes any two of:</p>
+            <ol><!-- Ordered (Numbered) List -->
+            <li><i>Pasta e Fagioli</i></li>
+            <li><i>Ravioli Nudi</i></li>
+            <li><i>Fettunta</i></li>
+            <li><i>Crostina con Salsiccia</i></li>
+            <li><i>Ribollita</i></li>
+            </ol>
+            <br/><br/>
+            <p><h2 class="fartsmella"  onclick="closepop()">Home</h2></p>
+        </div>
+    </body>
+</html>
